@@ -76,9 +76,8 @@ Click on the thumbnail to view the demo in action!
 ---
 
 ## 👨‍💻 Author
-- **Name**: Prakhar Srivastava 
-- **GitHub**: [prakshark](https://github.com/prakshark)  
-- **Email**: prakhar112358@gmail.com
+- **Name**: Mishthi Goel
+- **GitHub**: [mishh02](https://github.com/mishh02)  
 
 ---
 
