@@ -1,0 +1,52 @@
+{
+  "name": "helpnet",
+  "version": "1.0.0",
+  "description": "In times of disaster, reliable communication and coordination are critical. **HelpNet** is a decentralized, peer-to-peer application designed to empower communities during emergencies. By facilitating real-time messaging, location sharing, SOS alerts, file sharing, a safety check-in system, and an AI-powered chatbot for legal and disaster-related queries, HelpNet ensures seamless collaboration even when traditional networks fail.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.example.helpnet",
+    "productName": "HelpNet",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    },
+    "mac": {
+      "target": "dmg"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.2.0",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "hypercore": "^10.38.2",
+    "hyperswarm": "^4.8.4",
+    "random-access-memory": "^6.2.1",
+    "unslab": "^1.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishh02/helpnetForHackathon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mishh02/helpnetForHackathon/issues"
+  },
+  "homepage": "https://github.com/mishh02/helpnetForHackathon#readme"
+}
